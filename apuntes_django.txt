@@ -1,0 +1,108 @@
+Creando el entorno
+===============
+python -m venv mientorno
+
+Activar el entorno
+==================
+mientorno\Scripts\activate.bat
+
+Arrancamos el proyecto
+====================
+python manage.py runserver
+
+interrumpir la ejecución
+control + c
+
+Instalación de django
+==================
+pip install django
+
+pip freeze
+==========
+
+CREANDO PROYECTO DE DJANGO
+=============================
+django-admin startproject miblog
+
+"comprobar que se haya creado la carpeta miblog"
+
+ir al directorio "cd miblog"
+
+Crean las migraciones
+===================
+python manage.py migrate
+
+
+Crear un super usuario
+==================
+python manage.py createsuperuser
+
+Arrancar el proyecto
+================
+python manage.py runserver
+
+Admin panel
+===========
+http://127.0.0.1:8000/admin (ingresar las credenciales creadas)
+
+Crear aplicación
+================
+
+python manage.py startapp posts
+
+La registramos dentro del settings.py de "miblog" INSTALLED_APPS = []
+
+Creamos la vista y creamos un path dentro de urls.py de la app principal "miblog".
+
+
+TEMPLATE BASICAS DE DJANGO (VIEWS)
+=================================
+
+1. Creamos la codificación en views de la aplicacion Posts
+
+
+# Crear un modelo en django
+============================
+
+Dentro posts, en el archivo "models.py" 
+
+
+# Aplicamos las migraciones
+============================
+python manage.py makemigrations # va buscar todos los modelos que existan en nuestra aplicación
+
+
+# PARA QUE LA MIGRACION HAGA EFECTO
+===================================
+python manage.py migrate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
