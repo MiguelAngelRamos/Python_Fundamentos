@@ -77,10 +77,11 @@ python manage.py makemigrations # va buscar todos los modelos que existan en nue
 python manage.py migrate
 
 
+# TRABAJANDO DJANGO COMO API_REST
+=================================
 
-
-
-
+Instalar 
+pip install djangorestframework
 
 
 
