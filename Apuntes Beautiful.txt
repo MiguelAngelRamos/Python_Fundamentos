@@ -1,0 +1,20 @@
+Beautiful Soup
+==============
+
+Es una libreria que nos permite parsear contenido html, extraido con la libreria requests
+
+
+En BeautifulSoup existen diferentes tipos de HTML Parsers
+"lxml" "es el que usa por defecto"
+"html5lib"
+"html.parser" es el estandar de pytho no hace falta instalarlo como una libreria adicional
+
+
+En velocidad lxml > html.parser > html5lib
+
+
+Paso 1: Crear entorno virtual e instalar librerias necesarias
+Paso 2: Extraer el contenido del sitio web 
+Paso 3: Extraer o seleccionar información requerida
+Paso 4: Transformar la información en un Pandas DataFrame
+
